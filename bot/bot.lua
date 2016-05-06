@@ -247,6 +247,7 @@ function create_config( )
     "version",
     "help",
     "myinfo",
+    "voice",
     },
   enabled_lang = {
     "arabic_lang",
