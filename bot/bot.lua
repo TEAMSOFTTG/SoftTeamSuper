@@ -251,7 +251,10 @@ function create_config( )
     "Filemanager",
     "active_user",
     "Calculator",
-    "Fantasy_Writer",
+    "nerkhaz",
+    "short.link",
+    "translate",
+    "music",
     },
   enabled_lang = {
     "arabic_lang",
