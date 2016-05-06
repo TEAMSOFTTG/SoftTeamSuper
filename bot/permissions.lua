@@ -3,6 +3,7 @@ local sudos = {
     "rank_admin",
     "bot",
     "lang_install",
+    "music",
     "set_lang",
     "tosupergroup",
  	"gban_installer"
@@ -16,6 +17,7 @@ local sudos = {
  	"creategroup",
  	"setname",
  	"addbots",
+ 	"music",
  	"setlink",
  	"rank_guest",
  	"description",
@@ -29,6 +31,7 @@ local mods = {
 	"unban",
 	"lockmember",
 	"mute",
+	"music",
 	"unmute",
 	"admins",
  	"members",
