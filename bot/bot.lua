@@ -248,6 +248,7 @@ function create_config( )
     "help",
     "myinfo",
     "voice",
+    "Weather",
     },
   enabled_lang = {
     "arabic_lang",
