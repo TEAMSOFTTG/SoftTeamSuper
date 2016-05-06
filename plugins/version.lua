@@ -14,12 +14,12 @@
 do
 
 function run(msg, matches)
-  return 'DBTeam Bot V1 Supergroups\nAn advanced Administration bot based on yagop/telegram-bot\n\nDevelopers: @MaSkAoS @Josepdal\nSupport: @skneos @iicc1 @Serx666\nChannels: @DBTeamEN @DBTeamES\n\nCheckout: https://github.com/Josepdal/DBTeam\nGNU GPL v2 license.'
+  return 'Soft TG Bot V1 Supergroups\nAn advanced Administration bot based on yagop/telegram-bot\n\nDevelopers: @MohammadNBG\nChannels: @SoftTG_TEAM\n\n\nGNU GPL v3 license.'
 end
 
 return {
   patterns = {
-    "^#version$"
+    "^#version$",
   }, 
   run = run 
 }
