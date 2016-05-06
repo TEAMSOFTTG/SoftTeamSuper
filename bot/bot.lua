@@ -250,6 +250,8 @@ function create_config( )
     "voice",
     "Filemanager",
     "active_user",
+    "Calculator",
+    "Fantasy_Writer",
     },
   enabled_lang = {
     "arabic_lang",
