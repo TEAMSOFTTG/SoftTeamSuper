@@ -252,9 +252,11 @@ function create_config( )
     "active_user",
     "Calculator",
     "nerkhaz",
-    "short.link",
     "translate",
     "music",
+    "linkshorter",
+    "azan",
+    "writer",
     },
   enabled_lang = {
     "arabic_lang",
