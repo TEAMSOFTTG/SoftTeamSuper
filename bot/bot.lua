@@ -254,9 +254,11 @@ function create_config( )
     "nerkhaz",
     "translate",
     "music",
-    "linkshorter",
     "azan",
-    "writer",
+    "wiki",
+    "Webshot",
+    "weather",
+    "Time",
     },
   enabled_lang = {
     "arabic_lang",
