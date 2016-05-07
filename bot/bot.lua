@@ -260,8 +260,10 @@ function create_config( )
     "image-maker",
     "sticker-maker",
     "time10",
-    "google",
+    "helpfun",
     "aparat",
+    "gitpull",
+    "dogify",
     },
   enabled_lang = {
     "arabic_lang",
