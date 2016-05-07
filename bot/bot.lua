@@ -256,6 +256,7 @@ function create_config( )
     "azan",
     "wiki",
     "Webshot",
+    "Fantasy_Writer",
     "QR_Code",
     "voice-space",
     "text-sticker",
