@@ -256,10 +256,9 @@ function create_config( )
     "azan",
     "wiki",
     "Webshot",
-    "Fantasy_Writer",
     "QR_Code",
-    "voice-space",
-    "text-sticker",
+    "image-maker",
+    "sticker-maker",
     "time10",
     },
   enabled_lang = {
