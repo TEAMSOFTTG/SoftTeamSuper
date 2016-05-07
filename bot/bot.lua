@@ -257,8 +257,8 @@ function create_config( )
     "azan",
     "wiki",
     "Webshot",
-    "weather",
-    "Time",
+    "IP",
+    "QR_Code",
     },
   enabled_lang = {
     "arabic_lang",
