@@ -6,14 +6,7 @@ return {
   description = "", 
   usage = "",
   patterns = {
-  "^[!/+*-+=%&~^@]info$",
-  "^Info$",
-  "^info$",
-  "^[#]info$",
-  "^[!/.]info$",
-  "^[a]ll$",
-  "^مشخصات من$",
-  "^کل$",
+  "^[!/]info$"
   },
   run = run
 }
