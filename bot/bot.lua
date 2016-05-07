@@ -246,6 +246,7 @@ function create_config( )
     "spam",
     "version",
     "help",
+    "helpfunbot",
     "myinfo",
     "Filemanager",
     "active_user",
@@ -263,7 +264,7 @@ function create_config( )
     "aparat",
     "gitpull",
     "dogify",
-    "helpfun",
+    "info5",
     },
   enabled_lang = {
     "arabic_lang",
