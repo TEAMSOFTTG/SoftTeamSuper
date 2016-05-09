@@ -17,7 +17,7 @@ local function set_pass(msg, pass, id)
   local name = string.gsub(msg.to.print_name, '_', '')
   if hash then
     redis:hset(hash, pass, id)
-      return send_large_msg("channel#id"..msg.to.id, "Password Of SuperGroup/Group : ["..name.."] Has Been Set To:\n> "..pass.."\n\nNow User Can Join in pm (Send Msg To @avirabot In PV) By\n\n#join "..pass.." ", ok_cb, true)
+      return send_large_msg("channel#id"..msg.to.id, "Password Of SuperGroup/Group : ["..name.."] Has Been Set To:\n> "..pass.."\n\nNow User Can Join in pm (Send Msg To @Soft_TG In PV) By\n\n#join "..pass.." ", ok_cb, true)
   end
 end
 
@@ -41,7 +41,7 @@ local function run(msg, matches)
     local pass = matches[2]
     local id = msg.to.id
     if is_used(pass) then
-      return "Sorry, This pass is already taken\n@avirabot."
+      return "Sorry, This pass is already taken\n@Soft_TG."
     end
     redis:del("setpass:", id)
     return set_pass(msg, pass, id)
@@ -64,7 +64,7 @@ local function run(msg, matches)
    local chat_id = msg.to.id
    local pass = redis:hget(hash, channel_id)
    local receiver = get_receiver(msg)
-   send_large_msg(receiver, "Password for SuperGroup/Group\n@avirabot : ["..msg.to.print_name.."]\n\nPass > "..pass)
+   send_large_msg(receiver, "Password for SuperGroup/Group\n@Soft_TG : ["..msg.to.print_name.."]\n\nPass > "..pass)
  end
 end
 
